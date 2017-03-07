@@ -1,4 +1,32 @@
-# Script para crear anotaciones ToBI en ficheros textgrid con la transcripcion fonetica y las palabras en formato Cereproc
+# Praat script for transcribing Catalan and Spanish intonation using Sp_ToBI/Cat_ToBI conventions
+#
+# INPUT
+# Two files par utterance, containing:
+# 	1) The speech wave (wav file)
+#	2) The orthographic and phonetic transcription,time-aligned with the signal (TextGrid file in either IPA or SAMPA)
+
+# OUTPUT
+# 1) a set of tiers, wich are appended to the input TextGrid file, containing:
+#	- The syllable segmentation, with indication of stressed syllables
+#	- The Break Indices Tier
+#	- A narrow ToBI annotation
+#	- A wide (standard) ToBI annotation
+# 2) A png file containing a graphical representation of the waveform, the corresponding spectrogram, pitch contour and all the annotation tiers (optional).
+
+
+# LICENSE
+# Copyright (C) 2016  Wendy Elvira-García & Juan María Garrido Almiñana
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 3
+# of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You can find the terms of the GNU General Public License here
+# http://www.gnu.org/licenses/gpl-3.0.en.html
 
 form Argumentos
 	#sentence Directorio_wav D:\Usuarios\labfonub15\Desktop\ejemplos_Interface\
