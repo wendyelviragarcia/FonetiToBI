@@ -1,4 +1,4 @@
-FonetiToBI 1.0
+# FonetiToBI 1.0
 User manual
 
 FonetiToBI is a Praat-based tool for prosodic annotation in ToBI format (Break Indices, Pitch Accents, Boundary Tones) of Spanish and Catalan utterances. It has been developed by Wendy Elvira-García and Juan María Garrido at the Phonetics Lab of the University of Barcelona.
