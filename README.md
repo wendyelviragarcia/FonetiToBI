@@ -9,11 +9,11 @@ To execute FonetiToBI, run ‘FonetiToBI.praat’ in the usual way.  It will ask
 
 *	'Directorio_wav': path to the directory with the input files
 *	'Lengua': ToBI convention to be used 
-  ... o	Sp_ToBI
-  ... o	Cat-ToBI
+  ..* o	Sp_ToBI
+  ..* o	Cat-ToBI
 *	‘Formato_transcripcion’: Phonetic transcription alphabet used in the input TextGrid
-  ... o	SAMPA
-  ... o	IPA
+  ..* o	SAMPA
+  ..* o	IPA
 *	'Crear_figura': Check this box if  you want to get a png file with an image of the annotation
 *	'Revision': Check this box if you want to revise the output. The output TextGrid will be opened in Praat.
 
